@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root {
+    --theme-color: rgb(56, 122, 207);
+    --font-color: grey;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.header-container {
+    padding: 1rem;
+}
+
+h1 {
+    padding: 0 2rem;
+    color: var(--theme-color);
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--theme-color);
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: var(--theme-color);
+    font-weight: bold;
+}
+
+.services-container h2, h2 {
+    color: var(--theme-color);
+    font-weight: bold;
+}
+
+.services-container {
+    /* background-color: var(--theme-color); */
+    /* margin-top: 1rem; */
+    padding: 1rem 0;
+}
+
+.services {
+    border: 5px solid var(--theme-color);
+    padding: 1rem 3rem;
+    margin: 1rem 1rem;
+}
+
+.services i {
+    font-size: 10em;
+    color: var(--theme-color);
+}
+
+.services span {
+    color: var(--theme-color);
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+.footer-container{
+    background-color: var(--theme-color);
+    padding: 1rem;
+}
+
+.footer-container p {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+iframe {
+    /* display: block; */
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.contact-us-form {
+    padding: 5rem 10rem;
+}
