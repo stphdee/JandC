@@ -52,11 +52,14 @@ h1 {
     border: 5px solid var(--theme-color);
     padding: 1rem 3rem;
     margin: 1rem 1rem;
+    max-width: 20rem;
 }
 
 .services i {
     font-size: 10em;
     color: var(--theme-color);
+    width: 100%;
+    text-align: center;
 }
 
 .services span {
@@ -84,4 +87,43 @@ iframe {
 
 .contact-us-form {
     padding: 5rem 10rem;
+}
+
+@media (max-width: 991.98px) {
+    .services {
+        border: 5px solid var(--theme-color);
+        padding: 1rem 3rem;
+        margin: 1rem auto;
+        min-width: 80%;
+    }
+
+    .services i {
+        font-size: 8em;
+        color: var(--theme-color);
+        width: 100%;
+        text-align: center;   
+    }
+
+    .contact-us-form {
+        padding: 5rem 1rem;
+    }
+    
+}
+
+@media (max-width: 575.98px) {
+    .services {
+        border: 5px solid var(--theme-color);
+        padding: 1rem 3rem;
+        margin: 1rem auto;
+        min-width: 80%;
+    }
+
+    .services i {
+        font-size: 3em;
+        color: var(--theme-color);
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        
+    }
 }
